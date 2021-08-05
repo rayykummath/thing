@@ -1,0 +1,70 @@
+body{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    background-color: lightblue;
+}
+
+.heading{
+    color:darkgray;
+    background-color: white;
+}
+
+.heading img{
+    width: 100px;
+    display:inline;
+}
+
+.webcam{
+    background-color: lightblue;
+    border: 3px solid white;
+    box-shadow: 5px 10px 5px white;
+    padding:10px;
+    margin-top: 15px;
+}
+
+.webcam label{
+    background-color: white;
+    width:310px;
+    padding:10px;
+    margin-bottom: 0px;
+}
+
+#camera, #image{
+    border:2px solid white;
+    box-shadow: 5px 5px 18px white;
+    width: 310px;
+    height: 300;
+}
+
+.webcam button{
+    width:310;
+    border:1px solid;
+    font-size: 20px;
+}
+
+.Footer{
+    margin-bottom: 50px;
+}
+
+.Footer h4{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border:2px solid white;
+    box-shadow: 5px 5px 18px white;
+}
+
+.Footer img{
+    width: 70px;
+}
+
+.copy{
+    border:2px solid white;
+    box-shadow: 5px 5px 18px white;
+    position: fixed;
+    color:cornflowerblue;
+    bottom: 0;
+    width:100%;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+}

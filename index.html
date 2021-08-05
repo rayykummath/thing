@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+      <div class="col-xs-12 heading" ><h2>Image Identification Website</h2> 
+      <img src="27564-profile-searching.gif">
+    </div>
+
+    <div class="col-sm-6 col-xs-12 webcam">
+      <label>Webcam View</label>
+      <div id="camera"></div>
+      <button class="btn btn-warning" onclick="Snapper()">Click Image</button>
+    </div>
+
+    <div class="col-sm-6 col-xs-12 webcam">
+      <label>Image View</label>
+      <div id="image"></div>
+      <button class="btn btn-success" onclick="Identify()">Identify Image</button>
+    </div>
+
+    </center>
+    <br>
+    <h2 class="col-sm-6 col-xs-12">Results</h2>
+    <div class="col-xs-12 Footer">
+      <br>
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif"></img>
+        <span id="span"></span>
+      </h4>
+    </div>
+    <br>
+    <div class="copy">
+      <label>Created by Rayyan</label>
+    </div>
+    
+<script src="main.js"></script>
+  </body>
+</html>
